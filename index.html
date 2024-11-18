@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <div class="tab-content" id="main-tab">
+            <div class="balance-container">
+                <h2>Баланс: <span id="balance">0</span> монет</h2>
+            </div>
+            <button id="farm-button">Farm</button>
+        </div>
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('main-tab')">Главная</button>
+            <!-- Добавь другие вкладки здесь -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
